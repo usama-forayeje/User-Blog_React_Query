@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server --watch src/database/dummy.json --port 4000"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -16,6 +17,7 @@
     "@vitejs/plugin-react": "^4.3.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "json-server": "^1.0.0-beta.3",
     "lucide-react": "^0.460.0",
     "next-themes": "^0.4.3",
     "react": "^18.3.1",
